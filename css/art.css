@@ -50,6 +50,12 @@
   display: block;
 }
 
+/* Make all imgages responsive */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 /* Center all of the images*/
 .center {
   display: block;
