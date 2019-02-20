@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- For website tab -->
+    <title>Gone Drawin'.</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/art.css" />
+    <link rel="icon" href="images/icon2.jpg" />
+    <script src="active.js"></script>
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Condensed"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Dropdown -->
+    <div class="dropdown">
+      <button onclick="dropFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.htm">Home</a> <a href="self.htm">Self</a>
+        <a href="work.htm">Résumé</a>
+      </div>
+    </div>
+
+    <!-- Blog image header -->
+    <div id="art">
+      <img src="images/art.jpeg" alt="art" width="270" height="130" class="center" />
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Image Gallery -->
+    <div class="row">
+      <div class="column">
+        <img src="images/lilies.jpeg" width="225" height="125.8" alt="Lilies" onclick="imgFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/mountains.jpeg" width="225" height="125.8" alt="Golden Hour" onclick="imgFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/skyline.jpeg" width="225" height="125.8" alt="Above the Clouds" onclick="imgFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/succulent.jpeg" width="225" height="125.8" alt="Succulent" onclick="imgFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/sweetpea.jpeg" width="225" height="125.8" alt="Sweetpea" onclick="imgFunction(this);">
+      </div>
+    </div>
+
+    <!-- Expand image container -->
+    <div class="container">
+      <!-- Close image -->
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+      <!-- Expanded image -->
+      <img id="expandedImg" style="width:100%">
+
+      <!-- Image text -->
+      <div id="imgtext"></div>
+    </div>
+  </body>
+</html>
