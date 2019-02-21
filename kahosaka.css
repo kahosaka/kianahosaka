@@ -11,8 +11,10 @@ body, html {
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    background-color: white;
+  .parallax, .parralax2 {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
   }
 }
 
