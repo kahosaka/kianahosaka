@@ -62,7 +62,7 @@ body, html {
   html {
       background-size: cover;
       height: 100%;
-      overflow: hidden;
+      /*overflow: hidden; */
   }
 body {
     height:100%;
