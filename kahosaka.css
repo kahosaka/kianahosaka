@@ -59,14 +59,6 @@ body, html {
 }
 
 
-/* For iphone: */
-@media screen and (max-width: 320px){
-  .parallax1, .parallax2 {
-    height: 200px;
-    width: 100%;
-  }
-}
-
 /* Connect with Me. */
 .connect {
   font-family: "Saira Condensed", sans-serif;
