@@ -25,7 +25,9 @@ body, html {
 /* First parallax, with friends and sunrise picture */
 .parallax1 {
   background-image: url(images/sunrise.jpeg);
-  min-height: 100%;
+  /*min-height: 100%;*/
+  min-height: 600px;
+  max-width: 1500px;
 }
 
 /* Second parallax, with blurry sunrise picture */
