@@ -13,7 +13,8 @@ body, html {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
    
   .parallax1, .parallax2 {
-    -webkit-background-size: length_x length_y;
+    min-width: 100%;
+    height: auto;
   }
 }
 
