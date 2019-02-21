@@ -11,14 +11,26 @@ body, html {
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .parallax1, .parallax2 {
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  }
   html {
+    /*
     background: url(images/sunrise.jpeg) no-repeat top center fixed;
     background-size: cover;
+    */
     height: 100%;
     overflow: hidden;
   }
   body {
     height: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
