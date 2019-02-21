@@ -17,7 +17,7 @@ body, html {
 }
 */
 @media (min-width: 300px) {
-    .element {
+    .parallax1 {
         background: pink;
     }
 }
