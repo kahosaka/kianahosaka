@@ -8,9 +8,6 @@ body, html {
   text-align: center;
 }
 
-
-
-
 /* center the Kiana Hosaka header */
 .center {
   display: block;
@@ -63,10 +60,12 @@ body, html {
 
 @media(max-width: 568px) {
   .parallax1, .parallax2 {
-    background-attachment: scroll
+    background-attachment: scroll;
+    width: auto;
+    max-width: 100%;
+    height: auto;
   }
 }
-
 
 
 /* Connect with Me. */
