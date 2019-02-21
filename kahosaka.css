@@ -60,18 +60,11 @@ body, html {
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
   html {
-    .parallax1 {
-      background: url(images/sunrise.jpeg) no-repeat top center fixed;
-      background-size: cover;
-      height: 100%;
-      overflow: hidden;
-    }
-    .parallax2 {
+
       background: url(blur/sunrise.jpeg) no-repeat top center fixed;
       background-size: cover;
       height: 100%;
       overflow: hidden;
-    }
   }
 body {
     height:100%;
