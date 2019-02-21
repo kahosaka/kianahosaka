@@ -11,18 +11,15 @@ body, html {
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  html {
-  
-    background: url(images/sunrise.jpeg) no-repeat top center fixed;
-    background-size: cover;
     height: 100%;
-    overflow: hidden;
-  }
-  body {
-    height: 100%;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed !important;
+
+    background-position: center !important;
+
+    background-size: cover !important;
 }
 
 
