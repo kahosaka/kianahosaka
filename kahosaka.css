@@ -10,13 +10,30 @@ body, html {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-  .parallax, .parralax2 {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {html {
+
+    background: url(images/sunrise.jpeg) no-repeat top center fixed;
+
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-  }
+
+    height: 100%;
+
+    overflow: hidden;
+
 }
+
+
+
+body {
+
+    height:100%;
+
+    overflow: scroll;
+
+    -webkit-overflow-scrolling: touch;
+
+}}
+
 
 
 /* For both parallax */
