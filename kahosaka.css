@@ -58,11 +58,10 @@ body, html {
   font-size: 16px;
 }
 
-@media(max-width: 568px) {
+@media only screen and (max-width: 480px){
   .parallax1, .parallax2 {
     background-attachment: scroll;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 }
