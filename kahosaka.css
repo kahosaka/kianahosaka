@@ -58,12 +58,14 @@ body, html {
   font-size: 16px;
 }
 
-@media screen and (max-width: 900px){
+
+/* For iphone: */
+@media screen and (max-width: 320px){
   .parallax1, .parallax2 {
-    background-image: url(images/resume.jpeg);
+    height: auto;
+    min-width: 100%;
   }
 }
-
 
 /* Connect with Me. */
 .connect {
