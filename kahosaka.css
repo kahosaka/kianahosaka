@@ -10,9 +10,16 @@ body, html {
   text-align: center;
 
 }
+/*
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     background-image: url(images/sunrise.jpeg);
   }
+}
+*/
+@media (min-width: 300px) {
+    .element {
+        background: pink;
+    }
 }
 
 /* For both parallax */
