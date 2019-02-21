@@ -62,8 +62,8 @@ body, html {
 /* For iphone: */
 @media screen and (max-width: 320px){
   .parallax1, .parallax2 {
-    height: auto;
-    min-width: 100%;
+    height: 200px;
+    width: 100%;
   }
 }
 
