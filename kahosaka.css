@@ -11,6 +11,19 @@ body, html {
 }
 
 @media only screen and (max-width: 600px) {
+  .parallax1 {
+  background-image: url(images/sunrise.jpeg);
+  min-height: 100%;
+  }
+
+  /* Second parallax, with blurry sunrise picture */
+  .parallax2 {
+  background-image: url(images/blur.jpeg);
+  min-height: 100%;
+  /* centers the github, linkedin, instagram pictures, and the text about the website */
+  text-align: center;
+  font-size: 16px;
+  }
   .parallax1, .parallax2 {
     background-size: cover;
     background-attachment: fixed;
