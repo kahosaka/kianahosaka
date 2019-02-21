@@ -10,29 +10,19 @@ body, html {
   text-align: center;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {html {
-
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  html {
     background: url(images/sunrise.jpeg) no-repeat top center fixed;
-
     background-size: cover;
-
     height: 100%;
-
     overflow: hidden;
-
-}
-
-
-
-body {
-
-    height:100%;
-
-    overflow: scroll;
-
+  }
+  body {
+    height: 100%;
+   
     -webkit-overflow-scrolling: touch;
-
-}}
+  }
+}
 
 
 
