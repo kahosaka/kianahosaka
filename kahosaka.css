@@ -36,18 +36,32 @@ body, html {
 
 /* First parallax, with friends and sunrise picture */
 .parallax1 {
+  /*
   background: url(images/sunrise.jpeg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   min-height: 100%;
+  */
+ background: url(images/sunrise.jpeg);
+ min-height: 100%;
+ position: relative;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
 }
 
 /* Second parallax, with blurry sunrise picture */
+
 .parallax2 {
-  background: url(images/blur.jpeg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
+  background: url(images/blur.jpeg);
   min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   /* centers the github, linkedin, instagram pictures, and the text about the website */
   text-align: center;
   font-size: 16px;
