@@ -16,9 +16,11 @@ body, html {
 .parallax1, .parallax2 {
   position: relative;
   background-position: center;
-  background-size:cover;
+  
   background-repeat:no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: length_x length_y;
+
 }
 
 /* First parallax, with friends and sunrise picture */
