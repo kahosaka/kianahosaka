@@ -60,12 +60,7 @@ body, html {
 
 @media screen and (max-width: 600px){
   .parallax1, .parallax2 {
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat:no-repeat;
+    background-image: url(images/resume.jpeg);
   }
 }
 
