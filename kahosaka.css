@@ -1,6 +1,11 @@
 /* Background of entire home page */
-body {
+body, html {
   background-color: white;
+  height: 100%;
+  margin: 0;
+  line-height: 180%
+  color: #666;
+  text-align: center;
 }
 
 /* center the Kiana Hosaka header */
@@ -34,7 +39,7 @@ body {
   background: url(images/sunrise.jpeg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  min-height: 100%;
 }
 
 /* Second parallax, with blurry sunrise picture */
@@ -42,7 +47,7 @@ body {
   background: url(images/blur.jpeg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 800px;
+  min-height: 100%;
   /* centers the github, linkedin, instagram pictures, and the text about the website */
   text-align: center;
   font-size: 16px;
