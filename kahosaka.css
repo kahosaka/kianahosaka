@@ -62,13 +62,24 @@ body, html {
   html {
       background-size: cover;
       height: 100%;
-      /*overflow: hidden; */
+      overflow: hidden;
   }
-body {
+
+  body {
     height:100%;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
-}}
+  }
+  .parallax1{
+    background-image: url(images/sunrise.jpeg);
+  }
+  .parallax2 {
+    background-image: url(images/blur.jpeg);
+    min-height: 100%;
+    /* centers the github, linkedin, instagram pictures, and the text about the website */
+    text-align: center;
+    font-size: 16px;
+}
 
 
 
