@@ -11,10 +11,11 @@ body, html {
 }
 
 @media screen and (max-width: 480px) {
-    .parallax1 {
-         width: 400px;
-    }
+  body {
+    background-color: white;
+  }
 }
+
 
 /* For both parallax */
 .parallax1, .parallax2 {
