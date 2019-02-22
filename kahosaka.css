@@ -80,3 +80,10 @@ h1 {
   text-align: center;
   color: white;
 }
+
+h2 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: medium;
+  text-align: center;
+  color: white;
+}
