@@ -68,7 +68,7 @@ body, html {
     		background-size:cover;
 	}
   	.center {
-   		display: block;
+   		display: 100px;
     		margin-left: auto;
     		margin-right: auto;
   	}
