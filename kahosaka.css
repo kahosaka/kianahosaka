@@ -9,6 +9,7 @@ body, html {
   line-height: 180%
   color: #666;
   text-align: center;
+
 }
 
 /* For both parallax */
@@ -66,7 +67,6 @@ body, html {
 		background-attachment: initial;
     		background-size:cover;
 	}
-
 }
 
 
@@ -90,6 +90,15 @@ body, html {
 /* Ensures self, blog, work is horiozontal */
 .inlineblock {
   display: inline-block;
+}
+
+.bottom {
+
+    height:500px;
+    display: table-cell;
+    vertical-align: bottom;
+
+
 }
 
 /* Ensures self, blog, work is centered */
