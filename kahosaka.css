@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* Background of entire home page */
-
 body, html {
 
   height: 100%;
@@ -11,6 +10,7 @@ body, html {
   text-align: center;
 
 }
+/* Old parallax attempt. */
 
 /* For both parallax */
 /*
@@ -43,6 +43,7 @@ body, html {
   font-size: 16px;
 } */
 
+/* Parallax 1 */
 .parallax1 {
   height: 100%;
   background-image: url(images/sunrise.jpeg);
@@ -51,6 +52,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+/* Parallax 2 */
 .parallax2 {
   height: 100%;
   background-image: url(images/blur.jpeg);
@@ -62,6 +65,7 @@ body, html {
   font-size: 16px;
 }
 
+/* Remove parallax effect for mobile devices */
 @media screen and (max-width: 1024px) {
 	.parallax1, .parallax2 {
 		background-attachment: initial;
@@ -69,14 +73,12 @@ body, html {
 	}
 }
 
-
-/* center the Kiana Hosaka header */
+/* Center the Kiana Hosaka header */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /* Hover text for banners */
 .ex1 {
@@ -92,9 +94,9 @@ body, html {
   display: inline-block;
 }
 
+/* Icon and copyright information */
 .bottom {
-
-    height:500px;
+    height: 500px;
     display: table-cell;
     vertical-align: bottom;
 }
@@ -121,6 +123,7 @@ h1 {
   color: white;
 }
 
+/* For copyright information */
 h2 {
   font-family: "Saira Condensed", sans-serif;
   font-size: medium;
