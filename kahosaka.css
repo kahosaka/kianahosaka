@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* Background of entire home page */
-
+/*
 body, html {
 
   height: 100%;
@@ -10,7 +10,7 @@ body, html {
   color: #666;
   text-align: center;
 }
-/*
+*/
 /* For both parallax */
 /*
 .parallax1, .parallax2 {
@@ -64,7 +64,7 @@ body, html {
 @media screen and (max-width: 768px) {
 	.parallax1, .parallax2 {
 		background-attachment: inherit;
-		background-size: 100% auto;
+		max-width: 100%;
 
 	}
 
