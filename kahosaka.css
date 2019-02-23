@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* Background of entire home page */
-/*
+
 body, html {
 
   height: 100%;
@@ -10,7 +10,7 @@ body, html {
   color: #666;
   text-align: center;
 }
-
+/*
 /* For both parallax */
 /*
 .parallax1, .parallax2 {
