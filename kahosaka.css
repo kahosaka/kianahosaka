@@ -62,13 +62,11 @@ body, html {
 }
 
 @media screen and (max-width: 768px) {
-	.parallax1 {
+	.parallax1, .parallax2 {
 		background-attachment: inherit;
+		position:absolute;
 		
 
-	}
-	.parallax2 {
-		background-attachment: inherit;
 	}
 
 }
