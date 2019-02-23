@@ -43,7 +43,7 @@ body, html {
 } */
 
 .parallax1 {
-  height: auto;
+  height: 600px;
   background-image: url(images/sunrise.jpeg);
 	background-attachment: fixed;
   background-position: center;
@@ -51,7 +51,7 @@ body, html {
   background-size: 100% auto;
 }
 .parallax2 {
-  height: auto;
+  height: 600px;
   background-image: url(images/blur.jpeg);
 	background-attachment: fixed;
   background-position: center;
