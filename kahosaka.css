@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* Background of entire home page */
-/*
 body, html {
-
+  /*background-color: white;*/
   height: 100%;
   margin: 0;
   line-height: 180%
@@ -12,7 +11,6 @@ body, html {
 }
 
 /* For both parallax */
-/*
 .parallax1, .parallax2 {
   position: relative;
   background-position: center;
@@ -22,51 +20,20 @@ body, html {
 }
 
 /* First parallax, with friends and sunrise picture */
-/*
 .parallax1 {
-  background-image: url(images/sunrise.jpeg); */
+  background-image: url(images/sunrise.jpeg);
   /*min-height: 100%;*/
-  /*
   max-width: 100%;
   height: 100%;
 }
 
 /* Second parallax, with blurry sunrise picture */
-/*
 .parallax2 {
   background-image: url(images/blur.jpeg);
-  min-height: 100%; */
+  min-height: 100%;
   /* centers the github, linkedin, instagram pictures, and the text about the website */
-  /*
   text-align: center;
   font-size: 16px;
-} */
-
-.parallax1 {
-  height: 600px;
-  background-image: url(images/sunrise.jpeg);
-	background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.parallax2 {
-  height: 600px;
-  background-image: url(images/blur.jpeg);
-	background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  text-align: center;
-  font-size: 16px;
-}
-
-@media screen and (max-width: 768px) {
-	.parallax1, .parallax2 {
-		background-attachment: inherit;
-
-	}
-
 }
 
 
@@ -76,7 +43,6 @@ body, html {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /* Hover text for banners */
 .ex1 {
