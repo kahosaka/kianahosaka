@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* Background of entire home page */
-/*
+
 body, html {
 
   height: 100%;
@@ -10,7 +10,7 @@ body, html {
   color: #666;
   text-align: center;
 }
-*/
+
 /* For both parallax */
 /*
 .parallax1, .parallax2 {
@@ -43,7 +43,7 @@ body, html {
 } */
 
 .parallax1 {
-  height: 600px%;
+  height: 600px;
   background-image: url(images/sunrise.jpeg);
 	background-attachment: fixed;
   background-position: center;
@@ -51,7 +51,7 @@ body, html {
   background-size: 100% auto;
 }
 .parallax2 {
-  height: 600px%;
+  height: 600px;
   background-image: url(images/blur.jpeg);
 	background-attachment: fixed;
   background-position: center;
@@ -61,10 +61,11 @@ body, html {
   font-size: 16px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	.parallax1, .parallax2 {
 		background-attachment: initial;
-		background-size:cover
+    background-size:cover
+
 
 
 
