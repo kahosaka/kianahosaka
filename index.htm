@@ -109,6 +109,7 @@
             <a style="color:white" href="tel:6504507555">650.450.7555</a> / <a style="color:white" href="mailto:khosaka@uoregon.edu">khosaka@uoregon.edu </a>
         </h1>
         <h2>
+            <!--
             <br>
             <br>
             <br>
@@ -125,13 +126,15 @@
             <br>
             <br>
             <br>
-            <div class="inlineblock">
+            -->
+            <div class="bottom">
               <img src="images/new_icon.png" width="50" height="50" />
+              <br>
+              Website coded with JavaScript, HTML, and CSS by
+              Kiana Hosaka
+              <br>
+              © 2019 Kiana Hosaka
             <div/>
-            Website coded with JavaScript, HTML, and CSS by
-            Kiana Hosaka
-            <br>
-            © 2019 Kiana Hosaka
         </h2>
       </div>
     </div>
@@ -148,6 +151,8 @@
     		resize_all_parallax();
     	});
 
+
+
     	/* keep all of your resize function calls in one place so you don't have to edit them twice (on page load and resize) */
     	function resize_all_parallax() {
     		var div_id = 'img1'; /* the ID of the div that you're resizing */
@@ -155,7 +160,7 @@
     		var img_w = 1000; /* the width of your image, in pixels */
     		var img_h = 864; /* the height of your image, in pixels */
     		resize_parallax(div_id,img_w,img_h);
-        resize_parallax(div_id2,img_w,img_h);
+        /* resize_parallax(div_id2,img_w,img_h); */
     	}
 
     	/* this resizes the parallax image down to an appropriate size for the viewport */
