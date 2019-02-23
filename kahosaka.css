@@ -43,7 +43,7 @@ body, html {
 } */
 
 .parallax1 {
-  height: 100%;
+  height: 600px%;
   background-image: url(images/sunrise.jpeg);
 	background-attachment: fixed;
   background-position: center;
@@ -51,7 +51,7 @@ body, html {
   background-size: 100% auto;
 }
 .parallax2 {
-  height: 100%;
+  height: 600px%;
   background-image: url(images/blur.jpeg);
 	background-attachment: fixed;
   background-position: center;
@@ -64,8 +64,9 @@ body, html {
 @media screen and (max-width: 768px) {
 	.parallax1, .parallax2 {
 		background-attachment: inherit;
-		position:absolute;
 		
+
+
 
 	}
 
